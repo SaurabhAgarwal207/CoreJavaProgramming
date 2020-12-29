@@ -92,8 +92,9 @@ public class AreaOfVariousGeomtericFigures {
 		default:
 			System.out.println("Please enter a valid value");
 			break;
+			
 		}
-
+		scan.close();
 	}
 
 }

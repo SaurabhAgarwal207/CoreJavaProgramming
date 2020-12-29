@@ -22,7 +22,7 @@ public class AreaOfTriangle {
 		height = scan.nextInt();
 		area = ((double) (base * height) / 2);
 		System.out.println("Area of triangle is : " + df.format(area));
-
+		scan.close();
 	}
 
 }

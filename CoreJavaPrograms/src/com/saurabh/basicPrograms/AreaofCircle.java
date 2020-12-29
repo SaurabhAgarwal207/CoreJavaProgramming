@@ -21,6 +21,7 @@ public class AreaofCircle {
 		radius = scan.nextInt();
 		area =  ((double)(22 * radius * radius) / 7);
 		System.out.println("Area of Circle is :" + df.format(area));
+		scan.close();
 	}
 
 }

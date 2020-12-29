@@ -29,6 +29,7 @@ public class AverageOfNumbers {
 		for (int i = 0; i < num; i++)
 			avgArray[i] = scan.nextInt();
 		System.out.println("Average of numbers is: " + average(avgArray));
+		scan.close();
 
 	}
 
